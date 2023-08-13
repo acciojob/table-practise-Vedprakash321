@@ -5,10 +5,13 @@
     box-sizing: border-box;
 }
 table{
+	   border:1px solid rgb(0, 0, 0);
+	 border-color:#969799;
 	
 	 padding: 2px;
 	 width: 30%;
 	 length:70%;
+	
 }
 
 .text-name{
