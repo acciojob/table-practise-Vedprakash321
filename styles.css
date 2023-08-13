@@ -1,15 +1,23 @@
 /*  your css code here. If applicable */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display:wght@800&family=Roboto:ital@1&display=swap');
+table {
+	       
+            background-color: yellow;
 
-
-.text-name{
-    font-size: 2rem;
-    font-weight: 600;
-}
-tr, th, td{
-	border:"1px solid black";
-}
+            border: 3px solid black;
+            width: 50%;
+             
+	    
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 0px;
+			font-weight: bold;
+			font-size: 1.4rem;
+            
+        }
+        caption {
+            font-size: 1.4rem;
+            margin-bottom: 0px;
+        }
