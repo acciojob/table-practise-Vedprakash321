@@ -5,12 +5,11 @@
     box-sizing: border-box;
 }
 table{
-	   border:1px solid rgb(0, 0, 0);
+	 
 	 border-color:#969799;
-	
-	 padding: 2px;
+	 padding: 1px;
 	 width: 30%;
-	 length:70%;
+	
 	
 }
 
@@ -19,5 +18,10 @@ table{
     font-weight: 600;
 }
 tr, th, td{
+	border: 2px solid black;
+
+
 	border:"1px solid black";
+	font-size:25px
+	
 }
